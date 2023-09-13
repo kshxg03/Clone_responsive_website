@@ -1,0 +1,145 @@
+@media screen and (max-width: 991px) {
+    .nav-toggle {
+        display: block;
+        margin-right: 20px;
+    }
+    .main-nav {
+        overflow: initial;
+    }
+    .nav-links {
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 30%;
+        width: 100%;
+        padding-block: 20px;
+    }
+    .nav-links.active {
+        left: 0;
+    }
+    .nav-links ul {
+        flex-direction: column;
+    }
+    .examples-area {
+        gap: 20px;
+    }
+    .examples-card {
+        width: calc(50% - 10px);
+        height: 230px;
+    }
+    .cta-section-area{
+        padding-block: 70px;
+        width: 80%;
+    }
+    .panel-section-area {
+        flex-direction: column-reverse;
+        padding: 20px 40px 20px;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+    }
+    .panel-left ul {
+        list-style-type: none;
+    }
+    .buttons {
+        justify-content: center;
+    }
+    .companies-section {
+        margin-bottom: 50px;
+    }
+    .panel-left {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .header-section {
+        flex-direction: column-reverse;
+    }
+    .header-left {
+        width: 100%;
+        text-align: center;
+    }
+    .secondary-button {
+        width: 100%;
+    }
+    .buttons {
+        flex-direction: column;
+        gap: 0;
+    }
+    .button1 {
+        width: 100%;
+    }
+    .cta-section-area {
+        padding: 60px 40px 60px;
+        width: 100%;
+    }
+    .features-section {
+        width: 100%;
+    }
+    .features-card {
+        min-width: calc(50% - 10px);
+    }
+    .companies-section {
+        margin-bottom: 50px;
+    }
+    .big-feature-area, #second-big-feature {
+        text-align: center;
+        gap: 20px;
+        flex-direction: column;
+    }
+    .footer-area {
+        flex-direction: column;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+    }
+    .link-column {
+        align-items: stretch;
+    }
+    .big-feature-right p {
+        margin-bottom: 20px;
+    }
+    
+
+
+}
+
+@media screen and (max-width: 479px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    :root {
+        --padding-inline-section: 10px;
+    }
+    .features-card {
+        min-width: 100%;
+    }
+    .examples-card {
+        min-width: 100%;
+    }
+
+    
+}
